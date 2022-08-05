@@ -7,3 +7,5 @@ let valorFinal = function (valorProduto, porcentagemDesconto) {
 
 let preco = valorFinal (100, 10)
 console.log(preco)
+
+console.log(valorFinal(100,10))
