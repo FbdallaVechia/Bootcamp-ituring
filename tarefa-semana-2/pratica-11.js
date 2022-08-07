@@ -10,7 +10,7 @@ let cores = function (nomeCor) {
             console.log('rgb(255,255,0)');
             break;
         case "Verde":
-            console.log('rgb(,255,)')
+            console.log('rgb(0,128,0)')
             break;
         case "Azul claro":
             console.log('rgb(0,255,255)');
@@ -25,3 +25,8 @@ let cores = function (nomeCor) {
 
 cores("Vermelha")
 cores("Laranja")
+cores("Amarela")
+cores("Verde")
+cores("Azul claro")
+cores("Azul marinho")
+cores("Rosa")
