@@ -1,13 +1,10 @@
-function grupos (alunos) {
-    let qtdeDeGrupos = alunos.length / 2
-
-    alunos.slice(function(grupo){
-
+function grupos (alunos, gruposDe){
+   let grupo = alunos.forEach((valor, index) => {
+        console.log(alunos.slice(index, index + gruposDe))
     })
+    return grupo
 }
 
 let turma = ["Anderson Luz", "Fabio Vechia", "Claudia Lopes", "Rafael Alves", "Maria Mansano", "Jairo Ferreira", "Vitor Ribeiro"]
 
-console.log(turma.slice(0,2))
-console.log(turma.slice(2,4))
-console.log(turma.slice(4,7))
+grupos (turma, 2)
