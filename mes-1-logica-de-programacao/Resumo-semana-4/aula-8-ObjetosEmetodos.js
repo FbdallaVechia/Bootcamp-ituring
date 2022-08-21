@@ -97,7 +97,12 @@ let pessoa = {
     media: 8,
     dizerOi: function () {
         console.log('Oi')
+    },
+    seApresentar: function () {
+        console.log(`Oi, meu nome é ${this.nome} e tirei ${this.media} na prova!`)
     }
 }
 
 pessoa.dizerOi()
+
+pessoa.seApresentar()
