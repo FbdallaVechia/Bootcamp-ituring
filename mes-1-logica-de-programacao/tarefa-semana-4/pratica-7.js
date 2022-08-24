@@ -7,7 +7,9 @@ let presente = {
   }
 
   function propriedade(obj) {
-    return Object.keys(obj)
+    let newList = [...Object.keys(obj)]
+    console.log(newList)
+    return newList
   }
 
-  console.log (propriedade(presente))
+  propriedade(presente)
