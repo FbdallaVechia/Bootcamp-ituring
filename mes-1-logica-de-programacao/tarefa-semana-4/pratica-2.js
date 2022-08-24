@@ -19,16 +19,16 @@ listaSeries = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl"
 // buscaSerie (listaSeries, "Friends")
 
 function buscaSerie (lista, busca){
-    let resultado = lista.forEach((serie, index) => {
+    let resultado;
+    
+    lista.forEach((serie, index) => {
         if (busca === serie){
-            console.log(index)
-        } else{
-            undefined
-        }
+            resultado = index
+        } 
     })
     return resultado
 }
 
-buscaSerie (listaSeries, "Dexter")
+console.log(buscaSerie (listaSeries, "Dexter"))
 
-buscaSerie (listaSeries, "Friends")
+console.log(buscaSerie (listaSeries, "Friends"))
