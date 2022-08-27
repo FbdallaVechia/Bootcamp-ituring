@@ -6,8 +6,8 @@ let filme = {
  categoria: "Drama",
 }
 
-function infoFilme (obj){
-    return `O filme ${filme.titulo} que estreou em ${filme.anoDePublicacao}, tem a avaliação de ${filme.notaDeAvaliacao} pelo IMDb.`
+function infoFilme (filme){
+    return console.log(`O filme ${filme.titulo} que estreou em ${filme.anoDePublicacao}, tem a avaliação de ${filme.notaDeAvaliacao} pelo IMDb.`)
 }
 
-console.log(infoFilme(filme))
+infoFilme(filme)
