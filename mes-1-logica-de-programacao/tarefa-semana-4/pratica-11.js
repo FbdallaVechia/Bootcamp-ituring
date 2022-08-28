@@ -1,4 +1,4 @@
-let pratica10 = [{
+let pratica11 = [{
     valor: 100.00,
     movimentacao: "deposito",
     dataMovimentacao: "2021-08-02T07:46:36.611Z"
@@ -63,4 +63,4 @@ function saldo (lista){
     return saldoFinal
 }
 
-saldo (pratica10)
+saldo (pratica11)
