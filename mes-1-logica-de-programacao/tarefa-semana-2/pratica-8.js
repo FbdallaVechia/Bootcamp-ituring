@@ -6,5 +6,5 @@ let parOuImpar = function (numero) {
     }
 }
 
-parOuImpar (112)
-parOuImpar (1051)
+parOuImpar(112)
+parOuImpar(1051)

@@ -22,7 +22,7 @@ function diaSemana(queDiaEh) {
             console.log("Domingo");
             break;
         default:
-            console.log(`O número ${queDiaEh} não é válido para dia da semana`)    
+            console.log(`O número ${queDiaEh} não é válido para dia da semana`)
 
     }
 }

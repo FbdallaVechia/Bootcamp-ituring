@@ -1,6 +1,6 @@
-function buscaTexto (lista, termoDeBusca){
+function buscaTexto(lista, termoDeBusca) {
     let listaFiltrada = []
-    
+
     for (let serie of lista) {
         if (serie.includes(termoDeBusca)) {
             listaFiltrada.push(serie)

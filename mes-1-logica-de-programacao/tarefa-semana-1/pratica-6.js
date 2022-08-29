@@ -9,17 +9,17 @@ let numero8 = 8
 let numero9 = 9
 let numero10 = 10
 
-function multiplicacao (valor){
-    console.log(valor*123)
+function multiplicacao(valor) {
+    console.log(valor * 123)
 }
 
-multiplicacao (numero1)
-multiplicacao (numero2)
-multiplicacao (numero3)
-multiplicacao (numero4)
-multiplicacao (numero5)
-multiplicacao (numero6)
-multiplicacao (numero7)
-multiplicacao (numero8)
-multiplicacao (numero9)
-multiplicacao (numero10)
+multiplicacao(numero1)
+multiplicacao(numero2)
+multiplicacao(numero3)
+multiplicacao(numero4)
+multiplicacao(numero5)
+multiplicacao(numero6)
+multiplicacao(numero7)
+multiplicacao(numero8)
+multiplicacao(numero9)
+multiplicacao(numero10)

@@ -1,12 +1,12 @@
-function tabuada (n){
+function tabuada(n) {
     let i = 0;
     let resultado
     while (i <= 10) {
         resultado = i * n
         console.log(`${n} x ${i} = ${resultado}`)
-        i ++
+        i++
     }
-    
+
 }
 
-tabuada (9)
+tabuada(9)

@@ -16,13 +16,13 @@ if (typeof email == 'string') {
     console.log(false)
 }
 
-switch(typeof profissao == 'string'){
+switch (typeof profissao == 'string') {
     case true:
         console.log(true);
         break;
-        case false:
-            console.log(false);
-            break;
+    case false:
+        console.log(false);
+        break;
 }
 
 if (typeof idade == 'string') {

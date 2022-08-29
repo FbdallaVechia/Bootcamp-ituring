@@ -23,7 +23,7 @@ function votacao(votos) {
 
     if (brasil > argentina && brasil > espanha && brasil > portugal) {
         console.log("Brasil é o preferido para ganhar a Copa do Mundo")
-    } 
+    }
 
 
 }
