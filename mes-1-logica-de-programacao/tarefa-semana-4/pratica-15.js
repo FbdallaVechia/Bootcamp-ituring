@@ -34,7 +34,7 @@ let pratica15 = [{
     placa: 'ABC8765'
 }]
 
-function motoristaMaisperto (lista){
+function motoristaMaisperto(lista) {
     let listaOrganizada = lista.sort((a, b) => {
         return a.tempoEstimado - b.tempoEstimado
     })
