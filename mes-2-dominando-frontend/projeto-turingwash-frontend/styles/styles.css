@@ -372,3 +372,23 @@
 .new-car__details{
     padding: 26px 175px 26px 23px;
 }
+
+/*minhas lavagens*/
+
+.washed{
+    width: 680px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 16px 36px 16px 35px;
+    display: flex;
+
+}
+
+.washer__id{
+    display: block;
+}
+
+.washer__name{
+    display: block;
+}
