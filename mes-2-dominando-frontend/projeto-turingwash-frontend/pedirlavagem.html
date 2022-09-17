@@ -6,95 +6,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedir Lavagem</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <style>
+        
+    </style>
+
 </head>
 
 <body>
-    <header>
-        <header>
-            <img src="">TuringWash
-            <nav> <a href="">Meus carros</a> <a href="">Minhas lavagens</a> <button>Sair</button></nav>
-        </header>
+
+    <header class="navbar">
+        <img alt="Ícone carro com texto Turing Wash abaixo" src="./images/turingwash-logo.svg" class="navbar__img">
+        <nav class="navtag">
+            <a href="./meuscarros.html" class="navtag__link">Meus carros</a>
+            <a href="./minhaslavagens.html" class="navtag__link">Minhas lavagens</a>
+            <button class="navtag__button">Sair</button>
+        </nav>
     </header>
 
-    <main>
-        <div>
-            <h1>Lavadores próximos de você...</h1>
-        </div>
-        <div>Lavar <a href="">Nissan Kicks</a></div>
-        <div>Ordenar por <a href="">Proximidade</a></div>
-        <div>
 
-            <div>
-                <div>
-                    <img src="">FOTO
-                    <span>Joao Pereira</span>
-                </div>
-                <div>
-                    <span>Nota: 4,5(998 avaliações) R$ 80</span>
-                    <button>Ver avaliações</button>
-                    <button>Lavar meu carro </button>
-                </div>
-            </div>
+    <main class="main-content">
+        <section class="title">
+            <h1 class="title__text">Lavadores disponíveis próximos de você...</h1>
+        </section>
+        <section class="ordination">
+            <span class="ordination__car-text">Lavar <a href="#" class="ordination__car-link">Nissan Kicks</a></span>
+            <span class="ordination__classification-text">Ordenar por <a href="#"
+                    class="ordination__classification-link">Proximidade</a></span>
+        </section>
 
-            <div>
-                <div>
-                    <img src="">FOTO
-                    <span>Joana Santos</span>
-                </div>
-                <div>
-                    <span>Nota: 4,7(489 avaliações) R$ 75</span>
-                    <button>Ver avaliações</button>
-                    <button>Lavar meu carro </button>
-                </div>
-            </div>
+        <section class="washers-list">
 
-            <div>
-                <div>
-                    <img src="">FOTO
-                    <span>Matheus Oliveira</span>
-                </div>
-                <div>
-                    <span>Nota: 4,5(783 avaliações) R$ 90</span>
-                    <button>Ver avaliações</button>
-                    <button>Lavar meu carro </button>
-                </div>
-            </div>
 
-            <div>
-                <div>
-                    <img src="">FOTO
-                    <span>Pedro Sampaio</span>
+            <article class="washer">
+                <div class="washer__info">
+                    <img src="./images/profile.png" alt="Foto referente ao motorista" class="washer__photo">
+                    <span class="washer__name">Joao Pereira</span>
                 </div>
-                <div>
-                    <span>Nota: 4,1(801 avaliações) R$ 60</span>
-                    <button>Ver avaliações</button>
-                    <button>Lavar meu carro </button>
-                </div>
-            </div>
+                <section class="app-washer">
+                    <div class="app-washer__info">
+                        <span class="app-washer__note">Nota: 4.5(998 avaliações)</span> <span
+                            class="app-washer__price">R$ 80</span>
+                    </div>
+                    <div class="app-washer__select">
+                        <a href="#" class="app-washer__avaliations">Ver avaliações</a>
+                        <button class="app-washer__button-wash">Lavar meu carro </button>
+                    </div>
+                </section>
+            </article>
 
-        </div>
+
+            <article class="washer">
+                <div class="washer__info">
+                    <img src="./images/profile.png" alt="Foto referente ao motorista" class="washer__photo">
+                    <span class="washer__name">Joana Santos</span>
+                </div>
+                <section class="app-washer">
+                    <div class="app-washer__info">
+                        <span class="app-washer__note">Nota: 4.7(489 avaliações)</span> <span
+                            class="app-washer__price">R$ 75</span>
+                    </div>
+                    <div class="app-washer__select">
+                        <a href="#" class="app-washer__avaliations">Ver avaliações</a>
+                        <button class="app-washer__button-wash">Lavar meu carro </button>
+                    </div>
+                </section>
+            </article>
+
+
+            <article class="washer">
+                <div class="washer__info">
+                    <img src="./images/profile.png" alt="Foto referente ao motorista" class="washer__photo">
+                    <span class="washer__name">Matheus Oliveira</span>
+                </div>
+                <section class="app-washer">
+                    <div class="app-washer__info">
+                        <span class="app-washer__note">Nota: 4.3(783 avaliações)</span> <span
+                            class="app-washer__price">R$ 90</span>
+                    </div>
+                    <div class="app-washer__select">
+                        <a href="#" class="app-washer__avaliations">Ver avaliações</a>
+                        <button class="app-washer__button-wash">Lavar meu carro </button>
+                    </div>
+                </section>
+            </article>
+
+
+            <article class="washer">
+                <div class="washer__info">
+                    <img src="./images/profile.png" alt="Foto referente ao motorista" class="washer__photo">
+                    <span class="washer__name">Pedro sampaio</span>
+                </div>
+                <section class="app-washer">
+                    <div class="app-washer__info">
+                        <span class="app-washer__note">Nota: 4.1(801 avaliações)</span> <span
+                            class="app-washer__price">R$ 60</span>
+                    </div>
+                    <div class="app-washer__select">
+                        <a href="#" class="app-washer__avaliations">Ver avaliações</a>
+                        <button class="app-washer__button-wash">Lavar meu carro </button>
+                    </div>
+                </section>
+            </article>
+
+
+        </section>
 
     </main>
 
-    <footer>
-        <div>
-            <img src="">TuringWash
+    <footer class="footer">
+        <div class="footer__img">
+            <img alt="Ícone carro com texto Turing Wash abaixo" src="./images/turingwash-logo.svg">
         </div>
-        <div>
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Termos de uso</a></li>
+        <div class="footer__menu">
+            <ul class="footer__list">
+                <li><a href="" class="footer__links">Sobre</a></li>
+                <li><a href="" class="footer__links">FAQ</a></li>
+                <li><a href="" class="footer__links">Contato</a></li>
+                <li><a href="" class="footer__links">Termos de uso</a></li>
             </ul>
         </div>
-        <div>
-            <span>
-                <img src="">Instagram
+        <div clas="footer__info">
+            
+            <span class="footer__instagram">
+                <img src="./images/instagram.svg" alt="Ícone do instagram">@turingwash
             </span>
-            <span>
-                <h6>2022 TuringWash. Todos os direitos reservados.</h6>
-            </span>
+            <p class="footer__copyrights">2022 TuringWash. Todos os direitos reservados.</p>
+
         </div>
     </footer>
 </body>
