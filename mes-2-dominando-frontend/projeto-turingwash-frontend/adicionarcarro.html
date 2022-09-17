@@ -5,60 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adicionar Carro</title>
+    <title>Pedir Lavagem</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <style>
+
+    </style>
+
 </head>
 
 <body>
-    <header>
-        <header>
-            <img src="">TuringWash
-            <nav> <a href="">Meus carros</a> <a href="">Minhas lavagens</a> <button>Sair</button></nav>
-        </header>
+
+    <header class="navbar">
+        <img alt="Ícone carro com texto Turing Wash abaixo" src="./images/turingwash-logo.svg" class="navbar__img">
+        <nav class="navtag">
+            <a href="./meuscarros.html" class="navtag__link">Meus carros</a>
+            <a href="./minhaslavagens.html" class="navtag__link">Minhas lavagens</a>
+            <button class="navtag__button">Sair</button>
+        </nav>
     </header>
 
-    <main>
-        <div>
-            <h1>Adicionar carro</h1>
+
+    <main class="main-content">
+        <section class="title">
+            <h1 class="title__text">Adicionar carro</h1>
+        </section>
+
+        <section class="new-car">
+            <article class="new-car__details">
+                <span class="new-car__fab">Fabricante</span>
+                <select class="new-car__fab-select"></select>
+                <span class="new-car__fab">Modelo</span>
+                <select class="new-car__mod-mod"></select>
+                <span class="new-car__fab">Ano</span>
+                <select class="new-car__fab-year"></select>
+            </article>
+        </section>
+        <section class="add">
+            <button class="add__car-button">Adicionar carro</button>
+        </section>
         </div>
-        <div>
-            <div>
-                <ul>
-                <li><label>Fabricante
-                    <select></select>
-                </label></li>
-               <li> <label>Modelo
-                    <select></select>
-                </label></li>
-                <li><label>Ano
-                    <select></select>
-                </label></li>
-            </ul>
-            </div>
-            <button>Adicionar Carro</button>
-        </div>
+
+
     </main>
 
-    <footer>
-        <div>
-            <img src="">TuringWash
+    <footer class="footer">
+        <div class="footer__img">
+            <img alt="Ícone carro com texto Turing Wash abaixo" src="./images/turingwash-logo.svg">
         </div>
-        <div>
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Termos de uso</a></li>
+        <div class="footer__menu">
+            <ul class="footer__list">
+                <li><a href="" class="footer__links">Sobre</a></li>
+                <li><a href="" class="footer__links">FAQ</a></li>
+                <li><a href="" class="footer__links">Contato</a></li>
+                <li><a href="" class="footer__links">Termos de uso</a></li>
             </ul>
         </div>
-        <div>
-            <span>
-                <img src="">Instagram
+        <div clas="footer__info">
+
+            <span class="footer__instagram">
+                <img src="./images/instagram.svg" alt="Ícone do instagram">@turingwash
             </span>
-            <span>
-                <h6>2022 TuringWash. Todos os direitos reservados.</h6>
-            </span>
+            <p class="footer__copyrights">2022 TuringWash. Todos os direitos reservados.</p>
+
         </div>
     </footer>
 </body>
+
+</html>
 
 </html>

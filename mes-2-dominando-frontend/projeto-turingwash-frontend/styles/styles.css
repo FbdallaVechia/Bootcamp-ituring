@@ -320,3 +320,55 @@
     border: none;
     margin: 16px 208px 235px 206px;
 }
+
+/*adicionar carro*/
+
+.new-car {
+    width: 446px;
+    height: 181px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+
+.new-car__fab-select {
+    display: block;
+    width: 248px;
+    height: 19px;
+    background: #FFFFFF;
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.new-car__mod-mod {
+    display: block;
+    width: 248px;
+    height: 19px;
+    background: #FFFFFF;
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.new-car__fab-year {
+    display: block;
+    width: 63px;
+    height: 19px;
+    background: #FFFFFF;
+    border: 1px solid #A8A8A8;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.new-car__details{
+    padding: 26px 175px 26px 23px;
+}
