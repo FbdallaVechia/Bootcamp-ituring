@@ -5,50 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Carros</title>
+    <title>Pedir Lavagem</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <style>
+
+    </style>
+
 </head>
 
 <body>
-    <header>
-        <img src="">TuringWash
-        <nav><a href="">Meus carros</a> <a href="">Minhas lavagens</a> <button>Sair</button></nav>
+
+    <header class="navbar">
+        <img alt="Ícone carro com texto Turing Wash abaixo" src="./images/turingwash-logo.svg" class="navbar__img">
+        <nav class="navtag">
+            <a href="./meuscarros.html" class="navtag__link">Meus carros</a>
+            <a href="./minhaslavagens.html" class="navtag__link">Minhas lavagens</a>
+            <button class="navtag__button">Sair</button>
+        </nav>
     </header>
 
-    <main>
-        <div>
-            <h1>Meus Carros</h1>
-        </div>
-        <div>
-            <div>
-                Nissan Kicks <br>2018 <button>Excluir carro</button>
-            </div>
-            <div>
-                Chevrolet Onix <br>2015 <button>Excluir carro</button>
-            </div>
-            <button>Adicionar carro</button>
-        </div>
+
+    <main class="main-content">
+        <section class="title">
+            <h1 class="title__text">Meus carros</h1>
+        </section>
+
+
+        <section class="cars-list">
+            <article class="car">
+                <div class="car__info">
+                    <span class="car__name">Nissan Kicks</span>
+                    <p class="car__year">2018</p>
+                </div>
+                <div class="car__button">
+                    <button class="car__button-del">Excluir carro </button>
+                </div>
+            </article>
+               
+
+            <article class="car">
+                <div class="car__info">
+                    <span class="car__name">Chevrolet Onix</span>
+                    <p class="car__year">2015</p>
+                </div>
+                <div class="car__button">
+                    <button class="car__button-del">Excluir carro </button>
+                </div>
+            </article>
+        </section>
+
+        <section class="add">
+            <button class="add__car-button">Adicionar carro</button>
+        </section>
 
     </main>
 
-    <footer>
-        <div>
-            <img src="">TuringWash
+    <footer class="footer">
+        <div class="footer__img">
+            <img alt="Ícone carro com texto Turing Wash abaixo" src="./images/turingwash-logo.svg">
         </div>
-        <div>
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Termos de uso</a></li>
+        <div class="footer__menu">
+            <ul class="footer__list">
+                <li><a href="" class="footer__links">Sobre</a></li>
+                <li><a href="" class="footer__links">FAQ</a></li>
+                <li><a href="" class="footer__links">Contato</a></li>
+                <li><a href="" class="footer__links">Termos de uso</a></li>
             </ul>
         </div>
-        <div>
-            <span>
-                <img src="">Instagram
+        <div clas="footer__info">
+
+            <span class="footer__instagram">
+                <img src="./images/instagram.svg" alt="Ícone do instagram">@turingwash
             </span>
-            <span>
-                <h6>2022 TuringWash. Todos os direitos reservados.</h6>
-            </span>
+            <p class="footer__copyrights">2022 TuringWash. Todos os direitos reservados.</p>
+
         </div>
     </footer>
 </body>
