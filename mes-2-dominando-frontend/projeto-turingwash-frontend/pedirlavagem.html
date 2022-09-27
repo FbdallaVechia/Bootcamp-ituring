@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedir Lavagem</title>
 
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/all.css">
 
     <style>
-        
+
     </style>
 
 </head>
@@ -22,6 +22,16 @@
 <body>
 
     <header class="navbar">
+        
+        <div class="hamburguer">
+            <input type="checkbox" id="checbox-menu">
+            <label for="checbox-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
         <img alt="Ícone carro com texto Turing Wash abaixo" src="./images/turingwash-logo.svg" class="navbar__img">
         <nav class="navtag">
             <a href="./meuscarros.html" class="navtag__link">Meus carros</a>
@@ -133,7 +143,7 @@
             </ul>
         </div>
         <div class="footer__info">
-            
+
             <span class="footer__instagram">
                 <img src="./images/instagram.svg" alt="Ícone do instagram">@turingwash
             </span>

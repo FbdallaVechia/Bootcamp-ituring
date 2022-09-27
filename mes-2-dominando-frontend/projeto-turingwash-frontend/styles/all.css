@@ -1,0 +1,30 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./pedirlavagem.css");
+@import url("./meuscarros.css");
+@import url("./adicionarCarro.css");
+@import url("./minhasLavagens.css");
+
+
+.main-content {
+    background: #EAF7FF;
+    width: 100%;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-top: 26px;
+    padding-bottom: 23px;
+}

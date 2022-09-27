@@ -1,0 +1,123 @@
+header {
+    font-family: 'Inter', sans-serif;
+}
+
+.hamburguer{
+    display: none;
+}
+
+.navbar {
+    background-color: #BCF7FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar__img {
+    padding: 20px
+}
+
+.navtag {
+    display: flex;
+}
+
+.navtag__link {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    margin: 18px
+}
+
+.navtag__button {
+    background-color: #8FF2FF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    margin: 14px 13px 15px 24px;
+    padding: 4px 9px 3px 10px;
+    width: 46px;
+    height: 24px;
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .navtag{
+        display: none;
+    }
+
+    .navbar__img{
+        margin: auto;
+        align-self: center;
+    }
+
+    .hamburguer{
+        height: 100%;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 16px 25px;
+    }
+    
+    #checbox-menu{
+        position: absolute;
+        opacity: 0;
+    }
+    
+    label{
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+    }
+    
+    label span {
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        border-radius: 30px;
+        background-color: black;
+        transition: 0.25s ease-in-out;
+    }
+    
+    label span:nth-child(1){
+        top: 0;
+    }
+    
+    label span:nth-child(2){
+        top: 8px;
+    }
+    
+    label span:nth-child(3){
+        top: 16px;
+    }
+
+    #checbox-menu:checked + label span:nth-child(1){
+        transform: rotate(45deg);
+        top: 8px;
+    }
+
+    #checbox-menu:checked + label span:nth-child(2){
+        opacity: 0;
+    }
+
+    #checbox-menu:checked + label span:nth-child(3){
+        transform: rotate(-45deg);
+        top: 8px;
+    }
+
+    
+}

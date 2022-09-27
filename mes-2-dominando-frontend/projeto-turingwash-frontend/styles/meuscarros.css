@@ -1,0 +1,77 @@
+.cars-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.car {
+    width: 70%;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 16px 36px 16px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car__info {
+    margin: 5px 1px 45px 11px;
+
+}
+
+.car__name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+
+}
+
+.car__year {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+
+}
+
+.car__button {
+    align-self: flex-end;
+}
+
+.car__button-del {
+    margin: 46px 10px 9px 1px;
+    width: 103px;
+    height: 25px;
+    background: #FF9B9B;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    border: none;
+
+
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+}
+
+.add__car-button {
+    width: 103px;
+    height: 25px;
+    background: #8FF2FF;
+    border-radius: 5px;
+    border: none;
+    margin: 16px 208px 235px 206px;
+}
