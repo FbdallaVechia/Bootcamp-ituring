@@ -4,6 +4,9 @@
     justify-content: space-between;
     align-items: center;  
     padding: 42px 21px;
+    max-width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .footer__img {

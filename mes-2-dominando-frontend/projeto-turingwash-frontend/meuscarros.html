@@ -23,14 +23,27 @@
 
     <header class="navbar">
 
-        <div class="hamburguer">
-            <input type="checkbox" id="checbox-menu">
-            <label for="checbox-menu">
+        <nav class="navigation" role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
                 <span></span>
                 <span></span>
                 <span></span>
-            </label>
-        </div>
+
+                <ul id="menu">
+                    <a href="./meuscarros.html">
+                        <li>Meus carros</li>
+                    </a>
+                    <a href="./minhaslavagens.html">
+                        <li>Minhas Lavagens</li>
+                    </a>
+
+                    <a href="#">
+                        <li><button class="navtag__button">Sair</button></li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
 
         <img alt="Ícone carro com texto Turing Wash abaixo" src="./images/turingwash-logo.svg" class="navbar__img">
         <nav class="navtag">
@@ -57,7 +70,7 @@
                     <button class="car__button-del">Excluir carro </button>
                 </div>
             </article>
-               
+
 
             <article class="car">
                 <div class="car__info">
